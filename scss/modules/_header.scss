@@ -1,0 +1,135 @@
+.header {
+    width: 100vw;
+    height: 820px;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+
+    &__block {
+        width: 100vw;
+        height: 740px;
+        background: url('../images/header.jpg') no-repeat 50% 50%;
+        background-size: cover;
+        padding-top: 265px;
+    }
+}
+
+.header__title {
+    color: $white;
+    height: 40px;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 4.8px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    }
+
+.header__description {
+    height: 21px;
+    color: $white;
+    font-size: 22px;
+    letter-spacing: 6.82px;
+    text-align: center;
+    font-weight: 200;
+    }
+
+.form {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    
+    &__search {
+        width: 650px;
+        height: 60px;
+    }
+
+    &__submit{
+        color: $white;
+        font-family: Aleo;
+        font-size: 14px;
+        position: absolute;
+        width: 150px;
+        height: 56px;
+        background: $blue;
+        right: 437px;
+        top: 3%;
+        text-transform: uppercase;
+        display: flex;
+        line-height: 2.9;
+        padding-top: 8px;
+        padding-left: 30px;
+
+        &:hover {
+            opacity: .8;
+            background-color: #1497b8;
+        }
+
+        &:focus {
+            background-color: #014f63;
+        }
+    }
+
+    &__svg {
+        padding-left: 10px;
+    }
+}
+
+::-webkit-input-placeholder {
+    color:#999999;
+    font-size: 14px;
+    font-family: 'JosefinSans', sans-serif;
+    letter-spacing: 2.8px;
+    line-height: 1.86;
+    padding-left: 20%;
+}
+
+.text {
+    color: $white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.scroll {
+    color: $white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navigation {
+    width: 100vw;
+    height: 80px;
+    background-color: $blue;
+    color: $white;
+    display: flex;
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 600;
+        margin-left: 330px;
+        margin-top: 28px;
+        letter-spacing: 2.4px;
+    }
+}
+
+.menu {
+    display: flex;
+    margin-left: 429px;
+    padding: 34px 0;
+
+    &__item {
+        font-family: Aleo;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-right: 42px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $white;
+    }
+}

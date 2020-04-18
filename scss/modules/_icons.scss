@@ -1,0 +1,36 @@
+.icons > .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    width: 100vw;
+    height: 337px;
+    background: #333333;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__subtitle {
+        margin-top: 18px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        color: #e8e8e8;
+        font-size: 36px;
+        font-family: Aleo;
+    }
+}
+
+.icon {
+    text-align: center;
+}

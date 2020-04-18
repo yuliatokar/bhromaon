@@ -1,0 +1,65 @@
+.choose {
+    overflow: hidden;
+    width: 100vw;
+    height: 685px;
+    background: url('../images/choose.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    
+    &__block {
+        display: flex;
+        width: 100vw;
+    }
+
+    &__info {
+        margin-left: 328px;
+    }
+
+    &__img:last-child {
+        margin-left: 10%;
+        margin-top: 5px;
+    }
+
+    &__title {
+        color: $white;
+        font-family: Aleo;
+        font-size: 36px;
+        margin-top: 204px;
+        margin-bottom: 62px;
+    }
+
+    &__description {
+        width: 530px;
+        color: #e8e8e8;
+        font-size: 16px;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: justify;
+    }
+
+    &__button {
+        margin-top: 48px;
+        padding: 24px 38px;
+        width: 225px;
+        height: 60px;
+        color: $white;
+        background: $blue;
+        text-transform: uppercase;
+        font-family: Aleo;
+        letter-spacing: .2px;
+
+        &:hover {
+            opacity: .8;
+            background-color: #1497b8;
+        }
+
+        &:focus {
+            background-color: #014f63;
+        }
+    }
+
+    &__images {
+        padding-top: 120px;
+        margin-left: 5%;
+    }
+
+
+}
