@@ -46,7 +46,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -60,8 +60,7 @@ table {
   margin: 0;
   border: 0;
   outline: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {
@@ -97,10 +96,9 @@ body, html {
 .header {
   width: 100vw;
   height: 820px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   overflow-x: hidden;
 }
-
 .header__block {
   width: 100vw;
   height: 740px;
@@ -134,12 +132,10 @@ body, html {
   margin-top: 50px;
   position: relative;
 }
-
 .form__search {
   width: 650px;
   height: 60px;
 }
-
 .form__submit {
   color: #ffffff;
   font-family: Aleo;
@@ -151,23 +147,18 @@ body, html {
   right: 437px;
   top: 3%;
   text-transform: uppercase;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   line-height: 2.9;
   padding-top: 8px;
   padding-left: 30px;
 }
-
 .form__submit:hover {
-  opacity: .8;
+  opacity: 0.8;
   background-color: #1497b8;
 }
-
 .form__submit:focus {
   background-color: #014f63;
 }
-
 .form__svg {
   padding-left: 10px;
 }
@@ -175,7 +166,7 @@ body, html {
 ::-webkit-input-placeholder {
   color: #999999;
   font-size: 14px;
-  font-family: 'JosefinSans', sans-serif;
+  font-family: "JosefinSans", sans-serif;
   letter-spacing: 2.8px;
   line-height: 1.86;
   padding-left: 20%;
@@ -198,11 +189,8 @@ body, html {
   height: 80px;
   background-color: #5474fd;
   color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .navigation__title {
   text-transform: uppercase;
   font-size: 24px;
@@ -213,24 +201,19 @@ body, html {
 }
 
 .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 429px;
   padding: 34px 0;
 }
-
 .menu__item {
   font-family: Aleo;
   font-size: 14px;
   text-transform: uppercase;
   margin-right: 42px;
 }
-
 .menu__item:last-child {
   margin-right: 0;
 }
-
 .menu__link {
   text-decoration: none;
   color: #ffffff;
@@ -243,23 +226,17 @@ body, html {
   background: url("../images/choose.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
-
 .choose__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100vw;
 }
-
 .choose__info {
   margin-left: 328px;
 }
-
 .choose__img:last-child {
   margin-left: 10%;
   margin-top: 5px;
 }
-
 .choose__title {
   color: #ffffff;
   font-family: Aleo;
@@ -267,15 +244,13 @@ body, html {
   margin-top: 204px;
   margin-bottom: 62px;
 }
-
 .choose__description {
   width: 530px;
   color: #e8e8e8;
   font-size: 16px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-align: justify;
 }
-
 .choose__button {
   margin-top: 48px;
   padding: 24px 38px;
@@ -285,32 +260,24 @@ body, html {
   background: #5474fd;
   text-transform: uppercase;
   font-family: Aleo;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
 }
-
 .choose__button:hover {
-  opacity: .8;
+  opacity: 0.8;
   background-color: #1497b8;
 }
-
 .choose__button:focus {
   background-color: #014f63;
 }
-
 .choose__images {
   padding-top: 120px;
   margin-left: 5%;
 }
 
 .icons > .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .icons {
@@ -318,32 +285,18 @@ body, html {
   height: 337px;
   background: #333333;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .icons__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .icons__subtitle {
   margin-top: 18px;
   text-align: center;
 }
-
 .icons__subtitle {
   color: #e8e8e8;
   font-size: 36px;
@@ -360,40 +313,34 @@ body, html {
   background: url("../images/spain-1.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
-
 .book-1__info, .book-2__info {
   background: #232323;
-  opacity: .9;
+  opacity: 0.9;
   width: 540px;
   height: 371px;
   margin-top: 229px;
   padding-left: 30px;
   padding-top: 50px;
-  font-family: 'JosefinSans', sans-serif;
+  font-family: "JosefinSans", sans-serif;
   font-weight: normal;
 }
-
 .book-1__country, .book-1__title, .book-1__description, .book-2__country, .book-2__title, .book-2__description {
   color: #e8e8e8;
 }
-
 .book-1__country, .book-2__country {
   font-size: 20px;
 }
-
 .book-1__title, .book-2__title {
   font-size: 20px;
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 29px;
 }
-
 .book-1__description, .book-2__description {
   font-size: 16px;
   width: 478px;
   line-height: 1.63;
 }
-
 .book-1__button, .book-2__button {
   background-color: #5474fd;
   color: #ffffff;
@@ -405,12 +352,10 @@ body, html {
   letter-spacing: 1.2px;
   margin-top: 48px;
 }
-
 .book-1__button:hover, .book-2__button:hover {
-  opacity: .8;
+  opacity: 0.8;
   background-color: #1497b8;
 }
-
 .book-1__button:focus, .book-2__button:focus {
   background-color: #014f63;
 }
@@ -424,14 +369,9 @@ body, html {
   height: 731px;
   background: url("../images/travel.jpg") no-repeat 50% 50%;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .tourist__title {
   font-family: Aleo;
   color: #fff;
@@ -439,33 +379,29 @@ body, html {
   margin: 115px 0 89px;
   text-align: center;
 }
-
 .tourist__img {
   padding: 0;
   width: 445px;
   height: 284px;
   background: url("../images/tourist.jpg") no-repeat;
 }
-
 .tourist-block__title {
-  font-family: 'JosefinSans', sans-serif;
+  font-family: "JosefinSans", sans-serif;
   font-weight: 300;
   color: #fefefe;
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 23px;
 }
-
 .tourist-block__text {
-  font-family: 'JosefinSans', sans-serif;
+  font-family: "JosefinSans", sans-serif;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
   line-height: 1.63;
 }
-
 .tourist-block__text--violet {
-  font-family: 'Passion One', cursive;
+  font-family: "Passion One", cursive;
   font-size: 38px;
   color: #fff;
   padding: 0;
@@ -473,12 +409,8 @@ body, html {
 }
 
 .tourist > .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .footer {
@@ -486,65 +418,41 @@ body, html {
   height: 268px;
   background: #232323;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .footer-block {
   height: 268px;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
 .footer-block__title {
-  font-family: 'JosefinSans', sans-serif;
+  font-family: "JosefinSans", sans-serif;
   margin: 115px 0 15px;
   font-size: 24px;
   letter-spacing: 3.36px;
   text-transform: uppercase;
 }
-
 .footer-block__title:hover {
   color: #fff;
 }
-
 .footer-block__subtitle {
-  font-family: 'JosefinSans', sans-serif;
+  font-family: "JosefinSans", sans-serif;
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 1.6px;
   margin-bottom: 25px;
 }
-
 .footer-block__subtitle:hover {
   color: #fff;
 }
-
 .footer-block__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .footer-block__link {
   text-decoration: none;
   color: currentColor;
@@ -554,9 +462,9 @@ body, html {
   margin: 0 12px;
   fill: #E8E8E8;
 }
-
 .svg-inline--fa:hover {
   zoom: 1.5;
   fill: #fff;
 }
-/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=style.css.map */

@@ -3,4 +3,52 @@
     height: 731px;
     background: url('../images/travel.jpg') no-repeat 50% 50%;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+
+    &__title {
+        font-family: Aleo;
+        color: #fff;
+        font-size: 36px;
+        margin: 115px 0 89px;
+        text-align: center;
+    }
+
+    &__img {
+        padding: 0;
+        @include size(445px, 284px);
+        background: url('../images/tourist.jpg') no-repeat;
+    }
+
+    &-block {
+
+        &__title {
+            font-family: 'JosefinSans', sans-serif;
+            font-weight: 300;
+            color: #fefefe;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 23px;
+        }
+
+        &__text {
+            font-family: 'JosefinSans', sans-serif;
+            font-weight: 300;
+            color: $white;
+            font-size: 16px;
+            line-height: 1.63;
+
+            &--violet {
+                font-family: 'Passion One', cursive;
+                font-size: 38px;
+                color: #fff;
+                padding: 0;
+                line-height: 0;
+            }
+        }
+    }
+}
+.tourist > .container {
+    display: flex;
+    justify-content: center;
 }
